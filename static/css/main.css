@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+body {
+    background: #f0d0a9 url(../images/top.jpg) center top no-repeat;
+    font-family: "Microsoft Yahei";
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+ul, ol, li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+}
+
+/*头部*/
+header {
+    width: 100%;
+    height: 280px;
+}
+
+.header-box {
+    width: 1050px;
+    height: 88px;
+    margin: 0 auto;
+}
+
+.header-box .logo {
+    width: 20%;
+    display: inline-block;
+    float: left;
+}
+
+.header-box .logo img {
+    width: 268px;
+    margin-top: 66px;
+}
+
+.warning {
+    display: inline-block;
+    padding-left: 580px;
+    width: 15%;
+}
+
+.warning img {
+    width: 268px;
+    margin-top: 38px;
+}
+
+/*导航*/
+.nav {
+    background: url(../images/menu_bg.png) top center repeat;
+    width: 100%;
+    height: 50px;
+    margin-top: -10px;
+}
+
+.nav ul {
+    width: 1050px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.nav ul a {
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    padding: 3px 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav ul a:hover {
+    background: #dcba9a;
+    text-decoration: none;
+    border-radius: 0px 30px;
+}
+
+.nav ul .current {
+    background: #dcba9a;
+    border-radius: 0px 30px;
+}
+
+.nav ul li {
+    float: left;
+    margin: 0 23px;
+}
+
+.content {
+    width: 1050px;
+    height: 600px;
+    margin: 18px auto;
+    overflow: hidden;
+    border-radius: 18px;
+    background-color: #f8f6f2;
+
+}
+
+/*底部*/
+footer {
+    width: 100%;
+    height: 100px;
+    background: #ddbb9b;
+    font-size: 14px;
+    line-height: 33px;
+    color: #222;
+    text-align: center;
+    margin-top: 66px;
+}
+
+footer a {
+    color: #222;
+}
