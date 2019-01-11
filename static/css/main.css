@@ -33,7 +33,7 @@ header {
 
 /*导航*/
 .nav {
-    background: url(../images/menu_bg.png) top center repeat;
+    background-color: #707a83;
     width: 100%;
     height: 50px;
     margin-top: -10px;
