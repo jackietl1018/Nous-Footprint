@@ -76,7 +76,7 @@ header {
     margin: 18px auto;
     overflow: hidden;
     border-radius: 18px;
-    background-color: #f8f6f2;
+    border:1px solid white;
 }
 
 .theme-box {
@@ -88,7 +88,7 @@ header {
     border: 1px solid #f0d0a9;
 }
 
-.theme-box p span {
+.theme-box p a {
     display: block;
     text-align: center;
     font-size: 2em;
