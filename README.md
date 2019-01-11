@@ -1,2 +1,2 @@
-# NousBlog
-Nous个人博客（纯HTML+CSS）
+# Nous-Footprint
+Nous-Footprint（纯HTML+CSS）
