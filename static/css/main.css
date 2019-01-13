@@ -116,6 +116,7 @@ footer {
 
 footer a {
     color: #222;
+    text-decoration:none;
 }
 
 footer a:hover {
@@ -172,15 +173,33 @@ footer a:hover {
 }
 
 .strategy-box{
-    width:650px;
-    height:550px;
+    width:625px;
+    height:650px;
     margin-top:50px;
+    margin-left:25px;
     float:left;
 }
 
+.strategy-box a{
+    text-decoration:none;
+}
+
+.strategy-box a:link{
+    color:grey;
+}
+
+.strategy-box a:visited{
+    color:grey;
+}
+
+.strategy-box a:hover{
+    color:blue;
+}
+
 .picture-box{
-    width:575px;
-    height:550px;
+    width:625px;
+    height:650px;
     margin-top:50px;
+    margin-right:25px;
     float:right;
 }
